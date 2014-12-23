@@ -22,9 +22,7 @@ public class Object {
 		this.parent = parent;
 		int r = (int)parent.random(14)+2;
 		this.w=r;
-		this.h=r;
-		
-		
+		this.h=r;	
 	}
 	
 	public void moveMe(){
@@ -46,7 +44,6 @@ public class Object {
 		if(shape.equals("circ")){
 			parent.ellipse(x,y,w,h);
 		}else{
-
 			parent.rect(x,y,w,h,2);
 		}
 		
